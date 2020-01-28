@@ -1,6 +1,7 @@
 package com.ravimhzn.taskscheduler.utilities
 
 /*
+Lazy Initialization
  */
 
 open class SingletonHolder<out T: Any, in A>(creator: (A) -> T) {
